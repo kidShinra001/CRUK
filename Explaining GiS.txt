@@ -1,0 +1,22 @@
+Duplicate GiS events were defined by Alex as having the same UserID and SampleID
+occurring within 3 minutes of each other. This should be impossibe in the context of the game.
+
+The Py code deletes any duplicate data leaving only the one with the earliest timestamp.
+Test data is also removed.
+
+The code works by comparing timestamps from the newest and oldest events currently in memory.
+If the oldest event occurred more than 3 minutes before the newest event then the oldest event
+cannot be a duplicate so is printed to the output file and removed from active memory.
+Old events are iteratively removed until all events in active memory are within 3 minutes of
+the newest.
+
+The newest row is then sequentially compared to the remaining rows. If the newest row is a duplicate
+of one of the other rows then the newest row is removed.
+
+At the end of the file, any rows still in active memory are also printed to the output files.
+
+
+In GiS there are around 3 088 000 input events. This code should output 2 656 319 unique events.
+
+
+The code currently outputs UserID, SampleID, time and flightData
