@@ -16,7 +16,8 @@ of one of the other rows then the newest row is removed.
 At the end of the file, any rows still in active memory are also printed to the output files.
 
 
-In GiS there are around 3 088 000 input events. This code should output 2 656 319 unique events.
+In GiS there are around 3 088 000 input events. This code outputs 2 656 319 unique events, 413483 duplicates
+and 18884 test items.
 
 
 The code currently outputs UserID, SampleID, time and flightData
