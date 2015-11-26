@@ -1,0 +1,32 @@
+tIL file:
+
+6868 classfications
+6071 IDd classifications
+
+1124 GS classifications
+1124 GS IDd classifications
+
+1409 unique user IDs
+
+
+
+1173 excluded as test entries
+
+5695 classifications remain
+5695 IDd classifications
+
+1124 GS classifications
+
+1346 unique user IDs
+
+
+
+User Data:
+Mean error: 5.904220535945234
+Min error: 0.015759999999997998 560FD2C9-EAF2120-1B790A77
+Max error: 25.828721911128895 55B56C2B-BBB5C00-2366B9D2
+
+Screen Data:
+Mean error: 5.422338681521756
+Min error: 2.5430375708066375 MB-7072Chrom8
+Max error: 15.110155830782626 MB-4880ChromX
